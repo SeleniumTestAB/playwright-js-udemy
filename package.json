@@ -1,0 +1,25 @@
+{
+  "name": "playwright-js-udemy",
+  "version": "1.0.0",
+  "description": "Automated Tests with JS and Playwright",
+  "main": "index.js",
+  "scripts": {
+    "tests:e2e": "playwright test --config=e2e.config.ts --project=firefox"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SeleniumTestAB/playwright-js-udemy.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SeleniumTestAB/playwright-js-udemy/issues"
+  },
+  "homepage": "https://github.com/SeleniumTestAB/playwright-js-udemy#readme",
+  "dependencies": {
+    "prettier": "^2.7.1"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.24.2"
+  }
+}
